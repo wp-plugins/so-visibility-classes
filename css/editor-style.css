@@ -1,0 +1,42 @@
+/**
+ * Styles added to the Visual Editor (TinyMCE)
+ * 
+ * @since 0.1.1
+ */
+
+body#tinymce.wp-editor .so-show-small:before,
+body#tinymce.wp-editor .so-show-medium:before,
+body#tinymce.wp-editor .so-show-large:before,
+body#tinymce.wp-editor .so-hide-small:before,
+body#tinymce.wp-editor .so-hide-medium:before,
+body#tinymce.wp-editor .so-hide-large:before {
+    background-color: #D3D3D3;
+    border: 1px solid #AAA;
+    border-radius: 3px;
+    margin-right: 5px;
+    padding: 2px 5px;
+}
+
+body#tinymce.wp-editor .so-show-small:before {
+    content: "showSmall";
+}
+
+body#tinymce.wp-editor .so-show-medium:before {
+    content: "showMedium";
+}
+
+body#tinymce.wp-editor .so-show-large:before {
+    content: "showLarge";
+}
+
+body#tinymce.wp-editor .so-hide-small:before {
+    content: "hideSmall";
+}
+
+body#tinymce.wp-editor .so-hide-medium:before {
+    content: "hideMedium";
+}
+
+body#tinymce.wp-editor .so-hide-large:before {
+    content: "hideLarge";
+}
